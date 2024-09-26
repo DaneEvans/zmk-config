@@ -24,3 +24,5 @@ include:
   #   shield: kiai_left
   - board: seeeduino_xiao_ble
     shield: kiai_right
+  - board: seeeduino_xiao_ble
+    shield: kpd
