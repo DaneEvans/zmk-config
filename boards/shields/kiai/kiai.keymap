@@ -141,7 +141,7 @@
             bindings = <
                  &trans &trans   &trans  &trans   &trans               &to BKL   &to CTG  &trans   &kp BSPC   &trans  
                  &trans   &trans  &trans   &trans  &trans              &to DEF   &to HDN  &to DVK   &trans    &trans
-                 &trans   &bt BT_NXT  &bt BT_PRV  &bt BT_CLR   &reset      &reset   &bt BT_CLR  &bt BT_PRV   &bt BT_NXT  &trans
+                 &trans   &bt BT_NXT  &bt BT_PRV  &bt BT_CLR   &kp E      &kp E   &bt BT_CLR  &bt BT_PRV   &bt BT_NXT  &trans
                         &trans   &trans                     &trans   &trans  
             >;
         };
