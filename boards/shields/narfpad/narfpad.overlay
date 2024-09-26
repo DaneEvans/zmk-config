@@ -1,3 +1,12 @@
+
+#include "narfpad.dtsi"
+
+&default_transform {
+	col-offset = <5>;
+};
+
+
+
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -7,14 +16,6 @@
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
-
-
-        // #define MATRIX_ROW_PINS { GP6, GP7, GP0 }
-        // #define MATRIX_COL_PINS { GP29, GP28, GP27, GP26 }
-        // #define DIODE_DIRECTION COL2ROW
-        
-        // #define ENCODERS_PAD_A { GP1 }
-        // #define ENCODERS_PAD_B { GP2 }
 
         left_encoder: encoder_left {
             compatible = "alps,ec11";
