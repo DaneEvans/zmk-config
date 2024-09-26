@@ -25,7 +25,6 @@
             = <&xiao_d 29 GPIO_ACTIVE_HIGH>
             , <&xiao_d 28 GPIO_ACTIVE_HIGH>
             , <&xiao_d 27 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 26 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
