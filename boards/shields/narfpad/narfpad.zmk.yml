@@ -3,7 +3,8 @@ id: narfpad
 name: Narfpad
 type: shield
 url: https://github.com/sebastian-stumpf/narfpad
-requires: [pro_micro]
+# requires: [pro_micro]
+requires: [seeeduino_xiao_ble]
 # exposes: [i2c_oled]
 features:
   - keys
