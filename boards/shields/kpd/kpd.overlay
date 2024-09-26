@@ -1,4 +1,4 @@
-#include "kiai.dtsi"
+#include "kpd.dtsi"
 
 / {
 	kscan0: kscan { 
