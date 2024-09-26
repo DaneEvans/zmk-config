@@ -1,0 +1,16 @@
+file_format: "1"
+id: narfpad
+name: Narfpad
+type: shield
+url: https://github.com/sebastian-stumpf/narfpad
+requires: [pro_micro]
+# exposes: [i2c_oled]
+features:
+  - keys
+  - encoder
+  # - underglow
+  # - backlight
+# siblings:
+#   - corne_left
+#   - corne_right
+
