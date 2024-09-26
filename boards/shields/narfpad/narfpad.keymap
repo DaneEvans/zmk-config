@@ -7,13 +7,13 @@
 
         default_layer {
 // -----------------------------------------------------------
-// |   1   |   2   |    3   |
-// |   4   |   5   |    6   |  
-// |   7   |   8   |    9   |  0 
+//         |   1   |   2   |    3   |
+//         |   4   |   5   |    6   |  
+//  |  0   |   7   |   8   |    9   | 
             bindings = <
-    &kp 1    &kp 2    &kp 3 
-    &kp 3    &kp 4    &kp 5
-    &kp 6    &kp 7    &kp 8   &kp q
+             &kp 1    &kp 2    &kp 3 
+             &kp 3    &kp 4    &kp 5
+     &kp q   &kp 6    &kp 7    &kp 8 
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
