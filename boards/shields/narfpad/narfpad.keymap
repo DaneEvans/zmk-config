@@ -11,9 +11,9 @@
 //        |   4   |   5   |    6   |  
 //    0   |   7   |   8   |    9   | 
             bindings = <
-            &kp 1    &kp 2    &kp 3 
-            &kp 3    &kp 4    &kp 5
-    &kp 0   &kp 6    &kp 7    &kp 8 
+            &kp B    &kp G    &kp H 
+            &kp C    &kp F    &kp I
+    &kp A   &kp D    &kp E    &kp J 
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
