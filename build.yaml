@@ -27,4 +27,4 @@ include:
   # - board: seeeduino_xiao_ble
   #   shield: kpd
   - board: seeeduino_xiao_ble
-    shield: narfpad rgbled_adapter
+    shield: narfpad
