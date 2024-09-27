@@ -1,0 +1,6 @@
+
+
+
+config SHIELD_NARFPAD
+    def_bool $(shields_list_contains,narfpad)
+
