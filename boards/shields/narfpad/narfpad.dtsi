@@ -34,4 +34,12 @@
 		RC(2,0) RC(2,1) RC(2,2) RC(2,3)
         >;
     };
+
+        sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder>;
+        triggers-per-rotation = <20>;
+    };
+
+
 };
