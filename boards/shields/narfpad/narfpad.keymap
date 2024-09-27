@@ -16,7 +16,7 @@
     &kp A   &kp D    &kp E    &kp J 
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp U D>;
         };
     };
 };

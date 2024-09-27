@@ -13,6 +13,16 @@
 
     };
 
+    left_encoder: encoder_left {
+        compatible = "alps,ec11";
+        a-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "disabled";
+    };
+
+
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <4>;
