@@ -17,7 +17,6 @@
                      &kp 1    &kp 2    &kp 3 
                      &kp 4    &kp 5    &kp 6
       &out OUT_TOG   &kp 7    &kp 8    &kp 9
-      
             >;
 
             sensor-bindings = <&inc_dec_kp U D>;
