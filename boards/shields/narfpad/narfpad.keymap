@@ -75,7 +75,7 @@
             bindings = <
             &none    &bt BT_NXT	  &bt BT_PRV 
             &kp N4   &bt BT_CLR   &kp N6
-&kp OUT_TOG &kp N7   &kp N8       &kp N9
+&kp OUT_TOG &kp N7   &kp N8       &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
