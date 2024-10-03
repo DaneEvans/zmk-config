@@ -48,7 +48,7 @@
             bindings = <
               &mo SETTINGS  &kp LS(LC(M))  &kp SPACE  
               &mo SYMBOL    &kp LEFT    &kp RIGHT
-&out C_MUTE   &mo MEDIA     &kp TAB     &kp RET
+&kp C_MUTE   &mo MEDIA     &kp TAB     &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -90,7 +90,7 @@
             bindings = <
             &none    &bt BT_NXT	  &bt BT_PRV 
             &kp N4   &bt BT_CLR   &kp N6
-&kp OUT_TOG &kp N7   &kp N8       &bootloader
+&out OUT_TOG &kp N7   &kp N8       &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
