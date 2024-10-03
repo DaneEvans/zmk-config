@@ -19,6 +19,21 @@
 	retro-tap;
 };
 
+/ {
+    macros {
+        git: git {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &none>
+                , <&macro_tap &kp G &kp I &kp T &kp SPACE>
+                , <&macro_release &none>
+                ;
+        };
+    };
+};
+
+
 
 / {
     keymap {
@@ -47,7 +62,7 @@
             bindings = <
             &kp C_PREV  &kp C_PLAY  &kp C_NEXT 
             &kp N4      &kp N5      &kp N6
-&kp K_MUTE  &none       &kp N8      <&kp G &kp I &kp T &kp SPACE>
+&kp K_MUTE  &none       &kp N8      &git
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
