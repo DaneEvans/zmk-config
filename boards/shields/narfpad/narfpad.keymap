@@ -19,13 +19,6 @@
 	retro-tap;
 };
 
-bindings
-    = <&to 1>
-    , <&bl BL_ON>
-    , <&kp Z &kp M &kp K &kp EXCLAMATION>
-    ;
-
-
 
 / {
     keymap {
