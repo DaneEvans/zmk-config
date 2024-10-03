@@ -19,6 +19,13 @@
 	retro-tap;
 };
 
+bindings
+    = <&to 1>
+    , <&bl BL_ON>
+    , <&kp Z &kp M &kp K &kp EXCLAMATION>
+    ;
+
+
 
 / {
     keymap {
@@ -32,8 +39,8 @@
 //  Mute  |  -set  |    8        |    9   | 
             bindings = <
               &mo SETTINGS  &kp LS(LC(M))  &kp SPACE  
-              &mo SYMBOL    &kp N5    &kp N6
-&out K_MUTE   &mo MEDIA     &kp N8    &kp N9
+              &mo SYMBOL    &kp LEFT    &kp RIGHT
+&out C_MUTE   &mo MEDIA     &kp TAB     &kp RET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -41,13 +48,13 @@
 
         media_layer {
 // -----------------------------------------------------------
-//        |    1   |    2   |    3   |
-//        |    4   |    5   |    6   |  
-//  Mute  |    7   |    8   |    9   | 
+//        |  prev   |    play  |  next  |
+//        |    4    |    5     |    6   |  
+//  Mute  |    7  n |    8     | "git " | 
             bindings = <
-            &kp N1   &kp N2   &kp N3 
-            &kp N4   &kp N5   &kp N6
-&kp K_MUTE  &none    &kp N8   &kp N9
+            &kp C_PREV  &kp C_PLAY  &kp C_NEXT 
+            &kp N4      &kp N5      &kp N6
+&kp K_MUTE  &none       &kp N8      <&kp G &kp I &kp T &kp SPACE>
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
